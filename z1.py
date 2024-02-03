@@ -27,5 +27,4 @@ with open('scientist_origin.txt', 'w') as f2:
                 fin_sp.append(elem)
     finish = sorted(fin_sp)
     for one in spis[1:]:
-        print(one)
         print('#'.join(one), file=f2)
